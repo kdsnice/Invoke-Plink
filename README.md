@@ -10,7 +10,7 @@ This module has a dependency on [PLink.exe](http://www.chiark.greenend.org.uk/~s
 
 You can use `Install.bat` for automatic installation of Invoke-Plink PowerShell module.
 
-Just run "Run as administrator" `Install.bat`
+Just "Run as administrator" a `Install.bat`
 
 In order to check the successful installation of Invoke-Plink module,<br> 
 open PowerShell console and execute the following commands:
