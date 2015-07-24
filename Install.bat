@@ -10,3 +10,5 @@
 @powershell -Command "Invoke-WebRequest http://the.earth.li/~sgtatham/putty/latest/x86/plink.exe -OutFile ""%DestDir%\PuttyFiles\plink.exe"""
 @powershell -Command "Unblock-File -Path ""%DestDir%\Invoke-Plink.psd1"""
 @powershell -Command "Unblock-File -Path ""%DestDir%\Invoke-Plink.psm1"""
+@powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+@powershell -Command "Set-ExecutionPolicy RemoteSigned"
